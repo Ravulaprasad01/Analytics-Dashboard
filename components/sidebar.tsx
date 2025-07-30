@@ -52,7 +52,7 @@ export function Sidebar({ open, onClose, onNavigate, currentPage }: SidebarProps
           <div className="flex items-center justify-between p-4 md:hidden">
             <div className="flex items-center gap-3">
               <Avatar className="h-10 w-10">
-                <AvatarImage src="/admybrand_logo.jpg" />
+                <AvatarImage src="/admybrand.jpg" />
                 <AvatarFallback>AD</AvatarFallback>
               </Avatar>
               <span className="font-medium">ADmyBRAND Insights</span>
@@ -65,7 +65,7 @@ export function Sidebar({ open, onClose, onNavigate, currentPage }: SidebarProps
           {/* Desktop header */}
           <div className="hidden md:flex items-center gap-3 p-4">
             <Avatar className="h-10 w-10">
-              <AvatarImage src="/admybrand_logo.jpg" />
+              <AvatarImage src="/admybrand.jpg" />
               <AvatarFallback>AD</AvatarFallback>
             </Avatar>
             <span className="font-medium">ADmyBRAND Insights</span>
